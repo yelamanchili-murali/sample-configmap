@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: build-integrations-sample
+  namespace: default
 data:
   text: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel porttitor massa. Nunc rutrum tempor libero ut lacinia. Maecenas erat risus, bibendum quis mi nec, tempus eleifend sapien. Curabitur auctor eget libero et vestibulum. Proin non lacus facilisis, lobortis sem et, tempor purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ac erat vel erat dictum sodales et non purus. Sed vehicula ullamcorper arcu sit amet ullamcorper. Ut a interdum sem. Donec justo tellus, sollicitudin sed tellus sit amet, feugiat varius mi.
