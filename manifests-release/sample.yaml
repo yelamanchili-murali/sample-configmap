@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: build-integrations-sample
+  namespace: default
+data:
+  text: |
+    This is a release text.
